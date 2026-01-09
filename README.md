@@ -51,7 +51,8 @@ To deploy this locally or to your Azure tenant:
 1. **Clone & Install**:
    ```bash
    git clone [https://github.com/alexscutelnic/Invoice-AI-Audit-Engine.git](https://github.com/alexscutelnic/Invoice-AI-Audit-Engine.git)
-   pip install -r requirements.txt```
+   pip install -r requirements.txt
+   ```
   
 2. **Environment Variables**: Configure the following in local.settings.json or Azure App Settings:
 
@@ -63,7 +64,8 @@ To deploy this locally or to your Azure tenant:
 
 3. **Run**:
   ```bash
-  func start```
+  func start
+```
   
 ## 🔒 Security & Privacy
 This repository contains the application logic only. **All API keys, connection strings, and sensitive URLs have been scrubbed** and are managed via Azure Key Vault and Environment Variables.
