@@ -50,7 +50,7 @@ To deploy this locally or to your Azure tenant:
 
 1. **Clone & Install**:
    ```bash
-   git clone [https://github.com/alexscutelnic/Invoice-AI-Audit-Engine.git](https://github.com/alexscutelnic/Invoice-AI-Audit-Engine.git)
+   git clone https://github.com/alexscutelnic/Invoice-AI-Audit-Engine.git
    pip install -r requirements.txt
    ```
   
