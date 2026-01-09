@@ -19,8 +19,6 @@ This solution creates a "Digital Auditor" that:
 
 ## 🗺️ System Architecture
 
-
-
 ```text
 [PrintIQ Export] --> (Blob Trigger) 
                         |
@@ -30,7 +28,7 @@ This solution creates a "Digital Auditor" that:
       (AI OCR)      (Secrets)   (Reconcile)
                         |
             [Output: Daily Excel Report] --> [Logic App Email]
-
+```
 ## 🛠️ Tech Stack
 * **Language:** Python 3.x
 * **Cloud:** Azure Functions (Serverless)
@@ -54,7 +52,7 @@ To deploy this locally or to your Azure tenant:
    ```bash
    git clone [https://github.com/alexscutelnic/Invoice-AI-Audit-Engine.git](https://github.com/alexscutelnic/Invoice-AI-Audit-Engine.git)
    pip install -r requirements.txt
-
+```
 2. **Environment Variables**: Configure the following in local.settings.json or Azure App Settings:
 
 * **KeyVaultUri:** Your Azure Key Vault endpoint.
@@ -66,6 +64,6 @@ To deploy this locally or to your Azure tenant:
 3. **Run**:
   ```bash
   func start
-
+```
 ## 🔒 Security & Privacy
 This repository contains the application logic only. **All API keys, connection strings, and sensitive URLs have been scrubbed** and are managed via Azure Key Vault and Environment Variables.
